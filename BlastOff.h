@@ -1,0 +1,10 @@
+Question 2
+
+#!/bin/bash
+
+number=10
+while [ $number -gt 0 ]; do
+  echo $number
+  let number=$number-1
+done
+echo "BLAST OFF!!"
