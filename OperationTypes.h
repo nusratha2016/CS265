@@ -16,6 +16,7 @@ case $opp in
   -) let result=$int1-$int2;;
   /) let result=$int1/$int2;;
   x|*) let result=$int1*$int2;;
+  %) let result=$int1%$int2;;
   # *) echo "Invalid Choice";;
 esac
 echo "answer: "$result
